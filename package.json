@@ -1,0 +1,25 @@
+{
+  "name": "hearthstone-server",
+  "version": "0.0.0",
+  "description": "Hearthstone private server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node index"
+  },
+  "author": "William Casarin",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "^1.0.4",
+    "binary": "^0.3.0",
+    "buffer-parser": "0.2.0",
+    "buffer-split": "0.0.0",
+    "epipebomb": "^0.1.1",
+    "hex": "^0.1.0",
+    "hexy": "^0.2.7",
+    "minimist": "^1.1.1",
+    "pcap": "^1.2.0",
+    "sprintf-js": "0.0.7",
+    "through2": "^2.0.0"
+  }
+}
